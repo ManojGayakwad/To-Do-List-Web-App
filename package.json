@@ -1,0 +1,23 @@
+{
+  "name": "todolist-v1",
+  "version": "1.0.0",
+  "description": "My own todo List. ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manoj Gayakwad",
+  "license": "ISC",
+  "engines": {
+    "node": "14.17.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3",
+    "nodemon": "^2.0.19"
+  }
+}
